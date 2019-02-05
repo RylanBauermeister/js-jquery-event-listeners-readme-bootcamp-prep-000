@@ -15,8 +15,10 @@ $(document).ready(function(){
   }
 
   window.pressIt = function(){
-    $('#typing').on("keydown", function(e){
-      if()
+    $('#typing').on("keydown", function(key){
+      if(key.which == "g"){
+        alert("You pressed G!");
+      }
     });
   }
 
