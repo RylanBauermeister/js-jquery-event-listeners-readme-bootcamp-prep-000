@@ -23,7 +23,7 @@ $(document).ready(function(){
   }
   
   window.submitIt = function(){
-    
+    $('input[type="submit"').on
   }
 
 });
