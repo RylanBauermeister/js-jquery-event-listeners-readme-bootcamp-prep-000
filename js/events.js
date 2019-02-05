@@ -21,5 +21,9 @@ $(document).ready(function(){
       }
     });
   }
+  
+  window.submitIt = function(){
+    
+  }
 
 });
