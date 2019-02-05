@@ -23,7 +23,7 @@ $(document).ready(function(){
   }
   
   window.submitIt = function(){
-    $('input[type="submit"]').submit(function(){
+    $('input[type="submit"]').on("submit", function(){
       alert('Your form is going to be submitted now.');
     });
   }
