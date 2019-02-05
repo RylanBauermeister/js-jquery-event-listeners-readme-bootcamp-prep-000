@@ -15,7 +15,9 @@ $(document).ready(function(){
   }
 
   window.pressIt = function(){
-    $('input')
+    $('#typing').on("keydown", function(e){
+      if()
+    });
   }
 
 });
