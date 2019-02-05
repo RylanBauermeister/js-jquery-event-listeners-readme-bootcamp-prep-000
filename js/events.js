@@ -7,5 +7,9 @@ $(document).ready(function(){
       alert("Hey!");
     });
   }
+  
+  window.frameIt = function(){
+    
+  }
 
 });
